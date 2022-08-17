@@ -5,34 +5,43 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="refresh" content="30">
 	<meta name="keywords" content="chocolate pizza">
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<title>Chocolate Pizza</title>
 	<link type="text/css" rel="stylesheet" href="style.css">
-	<base target="_blank" href="https://www.">
 </head>
 
 <body>
 	<header>
-    <div>
+    <div id="title-logo">
+      <img src ="assets/logo.png" alt="fork and knife icon"/>
       <h1>Delicious</h1>
       <p>THE BEST FOOD BLOG ON THE WEB</p>
     </div>
-    <div>
-
-    </div>
+    <nav id="social-media">
+      <img src ="assets/fb-icon.png" alt="facebook icon"/>
+      <img src ="assets/twit-icon.png" alt="twitter icon"/>
+      <img src ="assets/gp-icon.png" alt="google plus icon"/>
+      <img src ="assets/insta-icon.png" alt="instagram icon"/>
+      <img src ="assets/flic-icon.png" alt="flick icon"/>
+      <img src ="assets/pint-icon.png" alt="pinterest icon"/>
+    </nav>
+    <nav id="rss-email">
+      <img src ="assets/rss-icon.png" alt="rss icon"/>
+      <img src ="assets/mail-icon.png" alt="email icon"/>
+    </nav>
 	</header>
 
 	<main>
-    <section>
-      <h2>Chocolate Pizza</h1>
-		</section>
-    <div>
-      <img src="assets/choco-pizza.png"/>
+    <h2>Chocolate Pizza</h1>
+    <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
+    <div id="print">
+      <img src="assets/print-icon.png" alt="print icon"/>
+      <p>PRINT</p>
     </div>
-		<section>
+    <img id="main-img" src="assets/choco-pizza.png" alt="a chocolate pizza"/>
+		<section id="description">
       <p>
         For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
         of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
@@ -47,42 +56,69 @@
       </p>
 		</section>
 
-		<section>
-      <input type="checkbox" id="milk"/>
-      <label for="milk">1 1/2 cups milk</label>
-      <input type="checkbox" id="mascarpone"/>
-      <label for="mascarpone">1/2 cup mascarpone</label>
-      <input type="checkbox" id="salt"/>
-      <label for="salt">1/2 tsp pink salt</label>
-      <input type="checkbox" id="figs"/>
-      <label for="figs">1 lb Black Mission Figs</label>
-      <input type="checkbox" id="brown-sugar"/>
-      <label for="brown-sugar">1/2 cup brown sugar</label>
-      <input type="checkbox" id="water"/>
-      <label for="water">2-4 tbsp water</label>
-      <input type="checkbox" id="cream"/>
-      <label for="cream">1 1/2 cups heavy cream</label>
-      <input type="checkbox" id="granulated-sugar"/>
-      <label for="granulated-sugar">1/3 granulated sugar</label>
-      <input type="checkbox" id="egg"/>
-      <label for="egg">2 egg yolks</label>
-      <input type="checkbox" id="lemon"/>
-      <label for="lemon">1 lemon, juiced</label>
-      <input type="checkbox" id="butter"/>
-      <label for="butter">2 tbsp butter</label>
-      <input type="checkbox" id="pecans"/>
-      <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
-		</section>
-	</main>
+    <ul>
+      <li>
+        <input type="checkbox" id="milk"/>
+        <label for="milk">1 1/2 cups milk</label>
+      </li>
+      <li>
+        <input type="checkbox" id="mascarpone"/>
+        <label for="mascarpone">1/2 cup mascarpone</label>
+      </li>
+      <li>
+        <input type="checkbox" id="salt"/>
+        <label for="salt">1/2 tsp pink salt</label>
+      </li>
+      <li>
+        <input type="checkbox" id="figs"/>
+        <label for="figs">1 lb Black Mission Figs</label>
+      </li>
+      <li>
+        <input type="checkbox" id="brown-sugar"/>
+        <label for="brown-sugar">1/2 cup brown sugar</label>
+      </li>
+      <li>
+        <input type="checkbox" id="water"/>
+        <label for="water">2-4 tbsp water</label>
+      </li>
+      <li>
+        <input type="checkbox" id="cream"/>
+        <label for="cream">1 1/2 cups heavy cream</label>
+      </li>
+      <li>
+        <input type="checkbox" id="granulated-sugar"/>
+        <label for="granulated-sugar">1/3 granulated sugar</label>
+      </li>
+      <li>
+        <input type="checkbox" id="egg"/>
+        <label for="egg">2 egg yolks</label>
+      </li>
+      <li>
+        <input type="checkbox" id="lemon"/>
+        <label for="lemon">1 lemon, juiced</label>
+      </li>
+      <li>
+        <input type="checkbox" id="butter"/>
+        <label for="butter">2 tbsp butter</label>
+      </li>
+      <li>
+        <input type="checkbox" id="pecans"/>
+        <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
+      </li>
+    </ul>
 
+    <section id="author-bio">
+      <img src="assets/van-pic.png" alt="author's profile picture"/>
+      <h3>Vanessa Stevenson</h4>
+      <p>
+        Food enthusiast, photography fan. Add a pinch of raw foodism and that's
+        pretty much who I am.
+      </p>
+      <button>Share Recipe</button>
+    </section>
+	</main>
 	<footer>
-    <img />
-    <h4>Vanessa Stevenson</h4>
-    <p>
-      Food enthusiast, photography fan. Add a pinch of raw foodism and that's
-      pretty much who I am.
-    </p>
-    <button>Share Recipe</button>
+    <img src="assets/small-logo.png" alt="small fork and knife icon"/>
     <p>
       Delicious &copy; 2013 • All Rights Reserverd.<br>Proudly published with Ghost.
     </p>

@@ -1,0 +1,51 @@
+/* Header */
+
+header {
+  border-bottom: 15px lightgrey solid;
+}
+
+#title-logo h1 {
+  display: inline-block;
+}
+
+#title-logo p {
+  display: inline-block;
+}
+
+nav {
+  position: relative;
+  right: 0px;
+}
+
+#social-media {
+  display: inline-block;
+}
+
+#rss-email {
+  display: inline-block;
+}
+
+/* Main */
+
+#print {
+
+}
+
+#description {
+
+}
+
+ul {
+  list-style-type: none;
+  background-image: url("assets/list-bg.png");
+}
+
+#author-bio {
+  border-top: 15px lightgrey solid;
+}
+
+button {
+
+}
+
+/* Footer */
